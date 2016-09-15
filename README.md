@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/RecuencoJones/SonarQube-SonarTsPlugin-Docker.png?branch=develop)](https://travis-ci.org/RecuencoJones/SonarQube-SonarTsPlugin-Docker)
+
 # SonarQube SonarTsPlugin Docker
 
 A simple docker container with TypeScript plugin by [Pablissimo](https://github.com/Pablissimo/SonarTsPlugin).
