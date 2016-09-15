@@ -29,7 +29,7 @@ The image is published as `recuencojones/sonarqube-sonartsplugin`.
 You can use it with any of the following commands:
 
 ```
-docker pull sonarqube-sonartsplugin
+docker pull recuencojones/sonarqube-sonartsplugin
 docker run -d --name <container-name> -p 9000:9000 -p 9092:9092 recuencojones/sonarqube-sonartsplugin
 ```
 
