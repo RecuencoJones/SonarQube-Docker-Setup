@@ -2,7 +2,7 @@
 
 # SonarQube SonarTsPlugin Docker
 
-A simple docker container with TypeScript plugin by [Pablissimo](https://github.com/Pablissimo/SonarTsPlugin).
+A simple docker container with TypeScript plugin.
 
 Take a look at [SonarQube Docker](https://hub.docker.com/_/sonarqube/) for the
 basic usage of the container.
@@ -37,5 +37,5 @@ docker run -d --name <container-name> -p 9000:9000 -p 9092:9092 recuencojones/so
 
 - [SonarQube](http://www.sonarqube.org/)
 - [SonarQube Docker](https://hub.docker.com/_/sonarqube/)
-- [SonarTsPlugin](https://github.com/Pablissimo/SonarTsPlugin)
+- [SonarTs](https://docs.sonarqube.org/display/PLUG/SonarTS)
 - [Sonar Scanner Documentation](http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
