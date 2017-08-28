@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/RecuencoJones/SonarQube-SonarTsPlugin-Docker.png?branch=develop)](https://travis-ci.org/RecuencoJones/SonarQube-SonarTsPlugin-Docker)
 
-# SonarQube SonarTsPlugin Docker
+# SonarQube Docker Setup
 
 Take a look at [SonarQube Docker](https://hub.docker.com/_/sonarqube/) for the
 basic usage of the container.
