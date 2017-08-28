@@ -2,8 +2,6 @@
 
 # SonarQube SonarTsPlugin Docker
 
-A simple docker container with TypeScript plugin.
-
 Take a look at [SonarQube Docker](https://hub.docker.com/_/sonarqube/) for the
 basic usage of the container.
 
