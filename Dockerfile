@@ -1,9 +1,6 @@
-FROM sonarqube:6.0
+FROM sonarqube:6.5
 
 MAINTAINER David Recuenco <https://github.com/RecuencoJones>
 
-ENV TSPLUGIN_URL="https://github.com/Pablissimo/SonarTsPlugin" \
-    TSPLUGIN_VERSION=0.9 \
-    TSPLUGIN_NAME="sonar-typescript-plugin"
-
-ADD $TSPLUGIN_URL/releases/download/v$TSPLUGIN_VERSION/$TSPLUGIN_NAME-$TSPLUGIN_VERSION-SNAPSHOT.jar extensions/plugins/$TSPLUGIN_NAME-$TSPLUGIN_VERSION.jar
+ADD https://sonarsource.bintray.com/Distribution/sonar-typescript-plugin/sonar-typescript-plugin-1.0.0.340.jar /opt/sonarqube/extensions/plugins/
+ADD https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/releases/download/qualinsight-plugins-sonarqube-badges-3.0.1/qualinsight-sonarqube-badges-3.0.1.jar /opt/sonarqube/extensions/plugins
