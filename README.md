@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/RecuencoJones/SonarQube-SonarTsPlugin-Docker.png?branch=develop)](https://travis-ci.org/RecuencoJones/SonarQube-SonarTsPlugin-Docker)
+[![Build Status](https://api.travis-ci.org/RecuencoJones/SonarQube-Docker-Setup.svg?branch=develop)](https://travis-ci.org/RecuencoJones/SonarQube-Docker-Setup)
 
 # SonarQube Docker Setup
 
