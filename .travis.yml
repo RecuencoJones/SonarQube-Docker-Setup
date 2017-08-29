@@ -8,8 +8,8 @@ services:
   - docker
 
 install:
-  - docker build -t sonarqube-sonartsplugin .
-  - docker run -d -p 127.0.0.1:29000:9000 -p 127.0.0.1:29092:9092 --name sonar sonarqube-sonartsplugin
+  - docker build -t sonarqube-docker-setup .
+  - docker run -d -p 127.0.0.1:29000:9000 -p 127.0.0.1:29092:9092 --name sonar sonarqube-docker-setup
 
 script:
   - docker ps | grep -q sonar
